@@ -1,6 +1,6 @@
 # Air Quality Index (AQI) Prediction – India 2015–2020
 
-[![Notebook](https://github.com/MohansaiPotnuru/Air-Quality-Prediction-by-AITCE/actions/workflows/notebook.yml/badge.svg)](https://github.com/MohansaiPotnuru/Air-Quality-Prediction-by-AITCE/actions/workflows/notebook.yml)
+[![Notebook](https://github.com/MohansaiPotnuru/Air-Quality-Prediction-by-AICTE/actions/workflows/notebook.yml/badge.svg)](https://github.com/MohansaiPotnuru/Air-Quality-Prediction-by-AICTE/actions/workflows/notebook.yml)
 
 Machine-learning model that predicts the daily **Air Quality Index** of Indian cities from pollutant concentrations. I built it during the **AICTE Cycle-4** internship.
 
@@ -64,8 +64,8 @@ All of this is in [`AQI_Prediction.ipynb`](AQI_Prediction.ipynb).
 ## Run it
 
 ```sh
-git clone https://github.com/MohansaiPotnuru/Air-Quality-Prediction-by-AITCE.git
-cd Air-Quality-Prediction-by-AITCE
+git clone https://github.com/MohansaiPotnuru/Air-Quality-Prediction-by-AICTE.git
+cd Air-Quality-Prediction-by-AICTE
 pip install -r requirements.txt
 jupyter notebook AQI_Prediction.ipynb
 ```
