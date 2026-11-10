@@ -1,0 +1,19 @@
+name: Notebook
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt nbconvert
+      - name: Execute notebook end-to-end
+        run: jupyter nbconvert --to notebook --execute AQI_Prediction.ipynb --output executed.ipynb --ExecutePreprocessor.timeout=1200
