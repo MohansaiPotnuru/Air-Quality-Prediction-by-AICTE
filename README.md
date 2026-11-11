@@ -105,3 +105,7 @@ The weekly notebooks in `archive/` are kept unchanged as a record of the interns
 
 - **AICTE** internship programme (Cycle 4).
 - Data: Central Pollution Control Board (CPCB), India, via the public *Air Quality Data in India* dataset.
+
+## License
+
+The code and notebooks are released under the [MIT License](LICENSE). The dataset in `data/` comes from a third party and is not covered by that licence.
